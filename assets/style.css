@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --fonte01: 'Merriweather', sans-serif;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte01);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./imagem/pexels-fauxels-3183198.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+}
+
+main {
+    
+    padding: 50px;
+    max-width: 450px;
+    min-width: 450px;
+    z-index: 111;
+    background-color: rgba(255, 255, 255, 0.321); /* Cor com transparência */
+    backdrop-filter: blur(10px); /* Aplica o embaçamento */
+    border-radius: 10px;
+}
+header{
+    padding: 25px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 2.5em;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+#adicionar_tarefa{
+    padding: 30px;
+    border-bottom: 1px solid black;
+    
+}
+
+#adicionar_tarefa p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+#input_tarefa{
+    width: 200px;
+    height: 25px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: 0.3s;
+    
+}
+
+
+
+h3{
+    flex: 1;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+button{
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+button:hover{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.359);
+    transition: 0.1s;
+}
+
+
+
+#secao_tarefas {
+    
+    max-height: 180px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
+#secao_tarefas::-webkit-scrollbar {
+    display: none;
+}
+
+
+.confirmacao {
+    text-decoration: line-through;
+    text-decoration-color: green;
+    text-decoration-style: wavy; 
+    
+}
+
+.alerta {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    z-index: 1000;
+}
+.alerta.mostrar {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+

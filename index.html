@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script type="module" src="./assets/lista.js"></script>
+    <title>To do List</title>
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <h1>Minha To-do List</h1>
+            </header>
+
+            <form  id="adicionar_tarefa">
+                <p>Adicione uma Tarefa: </p>
+                <input type="text" id="input_tarefa" placeholder="Digite uma tarefa" autocomplete="off">
+                <button type="submit" id="btn_adicionar"><i class="bi bi-plus"></i></button>
+            </form>
+
+            <div id="alerta" class="alerta">Digite uma tarefa!</div> <!--Aqui vai ser o alerta-->
+
+            <form action="" id="secao_tarefas">
+
+                <div id="tarefas" >
+                    
+                </div>
+                
+            </form>
+            
+
+        </section>
+    </main>
+</body>
+</html>
