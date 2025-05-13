@@ -1,4 +1,4 @@
-# Portfólio Pessoal 📁
+# To-do List 📁
 
 Bem-vindo ao meu portfólio pessoal! Este repositório foi criado para demonstrar conceitos fundamentais de UI/UX design, responsividade e a criação de interfaces intuitivas, utilizando HTML, CSS e JavaScript.
 
