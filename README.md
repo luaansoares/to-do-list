@@ -9,21 +9,20 @@ Bem-vindo ao meu portfólio pessoal! Este repositório foi criado para demonstra
 
 ## Objetivo 🎯
 
-Este portfólio tem como objetivo me apresentar de forma clara e objetiva, reunindo informações sobre meus conhecimentos, interesses e os projetos que venho desenvolvendo. É um espaço onde compartilho um pouco da minha trajetória e das tecnologias que estudo e aplico no dia a dia.
+Este sistema tem como objetivo me ajudar a praticar o controle de funções e do DOM. Nele, é possível adicionar tarefas, marcá-las como concluídas e excluir as indesejadas.
 
 ## Tecnologias usadas 🚀
 
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **ScrollReveal**: Para animações ao rolar a página
-- **EmailJS**: ara envio de mensagens por formulário
+
 
 ## Funcionalidades 📄
 
-- Exibição de informações pessoais e projetos
-- Download do currículo
-- Formulário de contato funcional via EmailJS
+- Adicionar tarefas
+- marcar tarefas como concluidas
+- Excluir tarefas
 - Layout responsivo para dispositivos móveis e desktops
 
 ## Contato 📬
