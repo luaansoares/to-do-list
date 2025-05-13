@@ -149,7 +149,7 @@ button:hover{
 
     body {
         width: 100%;
-        height: 100dvd;
+        max-height: 100dvh;
         background-image: url(imagem/vertical2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
