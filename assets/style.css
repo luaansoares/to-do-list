@@ -146,10 +146,14 @@ button:hover{
 }
 
 @media (max-width: 660px) {
+    html, body {
+        height: 100dvh;
+        margin: 0;
+        overflow: hidden;
+    }
 
     body {
         width: 100%;
-        max-height: 100dvh;
         background-image: url(imagem/vertical2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
